@@ -17,13 +17,13 @@ Gem::Specification.new do |spec|
   spec.require_paths = %w(lib)
 
   spec.add_dependency 'railties', '>= 3.2.12'
+  spec.add_dependency 'swagger-docs'
 
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'git'
   spec.add_development_dependency 'rspec-rails'
   spec.add_development_dependency 'capybara'
-  spec.add_development_dependency 'swagger-docs'
   spec.add_development_dependency 'selenium-webdriver'
   spec.add_development_dependency 'sass-rails'
   spec.add_development_dependency 'uglifier'
